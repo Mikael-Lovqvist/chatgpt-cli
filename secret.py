@@ -4,6 +4,8 @@ from pathlib import Path
 #Third party
 import openai
 
+#Note - to access your OpenAI API key, go to https://platform.openai.com/account/api-keys
+
 #This is not rocket surgery level secret storage, any application under your user will have access and if you don't set permissions, so will other users.
 #I am not an authority on good practices here, use your own judgement. I did look a bit at https://www.freedesktop.org/wiki/Specifications/secret-storage-spec/
 #but then I didn't want to complicate things and decided on using the plain text file.
